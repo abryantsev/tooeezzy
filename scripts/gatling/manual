@@ -1,0 +1,24 @@
+Installation process:
+
+Download gatling stress test tool     (https://github.com/excilys/gatling/wiki/Downloads)
+Extract files from archive to local directory( avoid dirs with spaces and system paths because of potential permission problems)
+Override /conf/gatling.conf file with <ProjectDirectory>/scripts/gatling/gatling.conf
+Now you are ready for using Gatling.
+
+How to use Gatling:
+
+Run /bin/gatling.bat (or .sh)
+Wait for a moment while gatling find all simulation classes from specified(see gatling.conf, gatling.directory.simulations property)
+directory. (by default <ProjectDirectory>/scripts/gatling/)
+Choose number of needed class and press enter. Specify result identifiers or just use default by pressing Enter.
+
+How to use Gatling Recorder tool:
+
+If you don't have simulation scripts or just want to generate some other scripts all you need is Gatling Recorder.
+Run /bin/recorder.bat (or .sh)
+Choose http and https ports for Gatling proxy server( for example 8000/8001 respectively)
+Enter package and Class Name for created Simulation.
+Press Start button.
+Now your gatling proxy server is running and recording all activities through selected ports.
+To do these activities you have to configure you browser to use proxy with the same ports(8000,8001)
+in order to enable Gatling to sniff.

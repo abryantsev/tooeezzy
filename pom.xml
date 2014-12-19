@@ -1,0 +1,703 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.tooe</groupId>
+	<artifactId>tooe</artifactId>
+	<packaging>jar</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>the main project</name>
+
+	<properties>
+		<encoding>UTF-8</encoding>
+
+	  <maven-mongodb-plugin.version>0.3</maven-mongodb-plugin.version>
+		<maven-surefire-plugin.version>2.14.1</maven-surefire-plugin.version>
+		<scala-maven-plugin.version>3.1.4</scala-maven-plugin.version>
+		<maven-assembly-plugin.version>2.4</maven-assembly-plugin.version>
+		<maven-resources-plugin.version>2.6</maven-resources-plugin.version>
+		<maven-source-plugin.version>2.3.2</maven-source-plugin.version>
+		<maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
+		<java.version>1.7</java.version>
+
+		<scala.version>2.10.2</scala.version>
+    <scala.version.global>2.10</scala.version.global>
+		<scala_akka.version>2.10</scala_akka.version>
+
+    <akka.version>2.2.3</akka.version>
+    <!-- <spray.version>1.2-M8</spray.version> -->
+    <spray.version>1.2.0</spray.version>
+
+		<junit.version>4.10</junit.version>
+
+    <org.apache.http.version>4.2.5</org.apache.http.version>
+
+		<!-- Spring version downgraded in order to conform spring.data.mongo.version -->
+		<spring>3.1.4.RELEASE</spring>
+		<spring.version>${spring}</spring.version>
+		<spring.data.mongo.version>1.3.2.RELEASE</spring.data.mongo.version>
+		<spring.data.jpa.version>1.3.2.RELEASE</spring.data.jpa.version>
+		<org.hibernate.version>4.2.2.Final</org.hibernate.version>
+		<org.mongo.casbah.version>2.6.2</org.mongo.casbah.version>
+		<jackson.module.scala.version>2.1.3</jackson.module.scala.version>
+		<titan.version>0.4.0</titan.version>
+		<jsonassert.version>1.2.0</jsonassert.version>
+    <sigar.version>1.6.4</sigar.version>
+
+		<log4j.version>1.2.16</log4j.version>
+		<commons.collections.version>3.2.1</commons.collections.version>
+		<mysql.version>5.1.22</mysql.version>
+		<jetty.version>8.1.3.v20120416</jetty.version>
+
+    <toi.version>1.0.4</toi.version>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>spray repo</id>
+			<name>Spray Repository</name>
+			<url>http://repo.spray.io/</url>
+		</repository>
+		<repository>
+			<id>spray nightlies repo</id>
+			<name>Spray nightlies Repository</name>
+			<url>http://nightlies.spray.io/</url>
+		</repository>
+		<repository>
+			<id>scala-tools.org</id>
+			<name>Scala-tools Maven2 Repository</name>
+			<url>https://oss.sonatype.org/content/groups/scala-tools/</url>
+		</repository>
+		<repository>
+			<id>akka.repository</id>
+			<name>Akka Maven Repository</name>
+			<url>https://oss.sonatype.org/content/repositories/releases/</url>
+		</repository>
+		<repository>
+			<id>typesafe</id>
+			<name>Typesafe Repository</name>
+			<url>http://repo.typesafe.com/typesafe/releases/</url>
+		</repository>
+		<repository>
+			<id>casbah repo</id>
+			<name>Casbah Repository</name>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+		</repository>
+		<repository>
+			<id>maven repo</id>
+			<name>maven Repository</name>
+			<url>http://mvnrepository.com/</url>
+		</repository>
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>maven-mongodb-plugin-repo</id>
+			<name>maven mongodb plugin repository</name>
+			<url>http://maven-mongodb-plugin.googlecode.com/svn/maven/repo</url>
+			<layout>default</layout>
+		</pluginRepository>
+	</pluginRepositories>
+
+	<dependencies>
+		<!-- Scala -->
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-library</artifactId>
+			<version>${scala.version}</version>
+		</dependency>
+
+		<!-- Akka -->
+		<dependency>
+			<groupId>com.typesafe.akka</groupId>
+			<artifactId>akka-kernel_${scala_akka.version}</artifactId>
+			<version>${akka.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.typesafe.akka</groupId>
+			<artifactId>akka-actor_${scala_akka.version}</artifactId>
+			<version>${akka.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.typesafe.akka</groupId>
+			<artifactId>akka-slf4j_${scala_akka.version}</artifactId>
+			<version>${akka.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.typesafe.akka</groupId>
+			<artifactId>akka-remote_${scala_akka.version}</artifactId>
+			<version>${akka.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.typesafe.akka</groupId>
+			<artifactId>akka-cluster_${scala_akka.version}</artifactId>
+			<version>${akka.version}</version>
+		</dependency>
+    <dependency>
+      <groupId>com.typesafe.akka</groupId>
+      <artifactId>akka-camel_${scala_akka.version}</artifactId>
+      <version>${akka.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.hyperic</groupId>
+      <artifactId>sigar</artifactId>
+      <version>${sigar.version}</version>
+    </dependency>
+
+		<!-- General -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>${commons.collections.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.javadocmd</groupId>
+			<artifactId>simplelatlng</artifactId>
+			<version>RELEASE</version>
+		</dependency>
+
+		<!-- mongodb -->
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>2.10.1</version>
+		</dependency>
+
+		<!-- mongodb for tests -->
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>casbah-core_${scala_akka.version}</artifactId>
+			<version>${org.mongo.casbah.version}</version>
+			<!-- <scope>test</scope> -->
+		</dependency>
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>casbah-commons_${scala_akka.version}</artifactId>
+			<version>${org.mongo.casbah.version}</version>
+			<!-- <scope>test</scope> -->
+		</dependency>
+
+    <!-- jongo -->
+    <dependency>
+        <groupId>org.jongo</groupId>
+        <artifactId>jongo</artifactId>
+        <version>0.4</version>
+    </dependency>   
+
+		<!-- Titan / Cassandra / Tinkerpop -->
+		<dependency>
+			<groupId>com.thinkaurelius.titan</groupId>
+			<artifactId>titan-core</artifactId>
+			<version>${titan.version}</version>			
+		</dependency>
+		<dependency>
+			<groupId>com.thinkaurelius.titan</groupId>
+			<artifactId>titan-test</artifactId>
+			<version>${titan.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.thinkaurelius.titan</groupId>
+			<artifactId>titan-cassandra</artifactId>
+			<version>${titan.version}</version>
+		</dependency>
+		<!-- dependency>
+			<groupId>com.thinkaurelius.titan</groupId>
+			<artifactId>titan-es</artifactId>
+			<version>${titan.version}</version>
+		</dependency -->
+		<!-- dependency>
+			<groupId>com.thinkaurelius.titan</groupId>
+			<artifactId>titan-lucene</artifactId>
+			<version>${titan.version}</version>
+		</dependency -->
+<!-- 		<dependency> -->
+<!-- 		  <groupId>com.esotericsoftware.kryo</groupId> -->
+<!-- 		  <artifactId>kryo</artifactId> -->
+<!-- 		  <version>2.21</version> -->
+<!-- 		</dependency> -->
+
+		<!-- MySQL connecto java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.version}</version>
+		</dependency>
+
+		<!-- Spring Framework -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-mongodb</artifactId>
+			<version>${spring.data.mongo.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-jpa</artifactId>
+			<version>${spring.data.jpa.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.data</groupId>
+					<artifactId>spring-data-commons-core</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<!-- Hibernate -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>${org.hibernate.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>${org.hibernate.version}</version>
+		</dependency>
+
+		<!-- Spray -->
+		<dependency>
+			<groupId>io.spray</groupId>
+			<artifactId>spray-io</artifactId>
+			<version>${spray.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.spray</groupId>
+			<artifactId>spray-can</artifactId>
+			<version>${spray.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.spray</groupId>
+			<artifactId>spray-routing</artifactId>
+			<version>${spray.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.spray</groupId>
+			<artifactId>spray-httpx</artifactId>
+			<version>${spray.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.spray</groupId>
+			<artifactId>spray-util</artifactId>
+			<version>${spray.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.spray</groupId>
+			<artifactId>spray-client</artifactId>
+			<version>${spray.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.spray</groupId>
+			<artifactId>spray-json_${scala.version.global}</artifactId>
+			<version>1.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>io.spray</groupId>
+			<artifactId>spray-servlet</artifactId>
+			<version>${spray.version}</version>
+		</dependency>
+
+		<!-- Jackson -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.module</groupId>
+			<artifactId>jackson-module-scala_2.10</artifactId>
+			<version>${jackson.module.scala.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>${org.apache.http.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpmime</artifactId>
+			<version>${org.apache.http.version}</version>
+		</dependency>
+
+		<!-- Test -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.typesafe.akka</groupId>
+			<artifactId>akka-testkit_${scala_akka.version}</artifactId>
+			<version>${akka.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.specs2</groupId>
+			<artifactId>specs2_${scala_akka.version}</artifactId>
+			<version>1.13</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.specs2</groupId>
+			<artifactId>specs2-scalaz-core_${scala_akka.version}</artifactId>
+			<version>6.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>io.spray</groupId>
+			<artifactId>spray-testkit</artifactId>
+			<version>${spray.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<!-- Jetty -->
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-server</artifactId>
+			<version>${jetty.version}</version>
+			<!--<scope>${my.scope}</scope> -->
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-servlet</artifactId>
+			<version>${jetty.version}</version>
+			<!--<scope>${my.scope}</scope> -->
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-util</artifactId>
+			<version>${jetty.version}</version>
+			<!-- <scope>${my.scope}</scope> -->
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-webapp</artifactId>
+			<version>${jetty.version}</version>
+			<!--<scope>${my.scope}</scope> -->
+		</dependency>
+		<dependency>
+			<groupId>org.skyscreamer</groupId>
+			<artifactId>jsonassert</artifactId>
+			<version>${jsonassert.version}</version>
+			<scope>test</scope>
+		</dependency>
+		
+    <!-- Tooe integration server -->
+<!-- 		<dependency> -->
+<!-- 		  <groupId>com.tooe</groupId> -->
+<!-- 		  <artifactId>toiserver</artifactId> -->
+<!-- 		  <version>${toi.version}</version> -->
+<!-- 		  <classifier>sources</classifier> -->
+<!-- 		</dependency> -->
+		<dependency>
+		  <groupId>com.tooe</groupId>
+		  <artifactId>toiserver</artifactId>
+		  <version>${toi.version}</version>
+		</dependency>		
+	</dependencies>
+
+	<!-- PLUGINS -->
+	<build>
+    	<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin.version}</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>net.alchim31.maven</groupId>
+				<artifactId>scala-maven-plugin</artifactId>
+				<version>${scala-maven-plugin.version}</version>
+				<executions>
+					<execution>
+						<id>scala-compile-first</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>compile</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>scala-test-compile-first</id>
+						<phase>process-test-resources</phase>
+						<goals>
+							<goal>testCompile</goal>
+						</goals>
+					</execution>
+				</executions>
+        <configuration>
+          <jvmArgs>
+            <jvmArg>-Xms64m</jvmArg>
+            <jvmArg>-Xmx1024m</jvmArg>
+          </jvmArgs>
+        </configuration>
+			</plugin>
+			<!-- <plugin> <groupId>com.mmakowski</groupId> <artifactId>maven-specs2-plugin</artifactId> 
+				<version>0.4.1</version> <executions> <execution> <id>verify</id> <phase>verify</phase> 
+				<goals> <goal>run-specs</goal> </goals> </execution> </executions> </plugin> -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
+				<configuration>
+					<!-- <skipTests>true</skipTests> -->
+					<includes>
+						<include>**/*Suite.class</include>
+						<include>**/*Test.class</include>
+						<include>**/*Tests.class</include>
+						<include>**/*Spec.class</include>
+						<include>**/*Specs.class</include>
+                        <!--<include>**/service/*DataServiceTest.class</include>-->
+					</includes>
+                    <excludes>
+                        <exclude>**/service/*DataServiceTest.class</exclude>
+                    </excludes>
+                    <!--<forkMode>pertest</forkMode>-->
+                    <argLine>-Xmx1024m -XX:PermSize=128M -XX:MaxPermSize=350M -Dconfig.file=config/dev_application.conf</argLine>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>${maven-source-plugin.version}</version>
+				<configuration>
+					<compilerArgument>-Xlint:unchecked</compilerArgument>
+					<showWarnings>true</showWarnings>
+					<showDeprecation>true</showDeprecation>
+				</configuration>
+			</plugin>
+ 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>${maven-resources-plugin.version}</version>
+				<configuration>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+      <!-- 			
+      <plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>${maven-assembly-plugin.version}</version>
+				<configuration>
+					<descriptors>
+						<descriptor>src/main/assembly/akka.xml</descriptor>
+					</descriptors>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+      -->
+ 		</plugins>
+	</build>
+
+  <profiles>
+    <profile>
+      <id>development</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+        <property>
+          <name>env</name>
+          <value>dev</value>
+        </property>
+      </activation>
+      <properties>
+        <tooe.profile>full</tooe.profile>
+        <actors.deployment>default</actors.deployment>
+      </properties>
+      <build>
+        <plugins>
+		      <plugin>
+		        <groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-resources-plugin</artifactId>
+		        <version>${maven-resources-plugin.version}</version>
+		        <configuration>
+		          <encoding>UTF-8</encoding>
+		        </configuration>
+		      </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>production_core</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+        <property>
+          <name>env</name>
+          <value>core</value>
+        </property>
+      </activation>
+      <properties>
+        <tooe.profile>core</tooe.profile>
+        <actors.deployment>cluster</actors.deployment>
+      </properties>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+            <version>${maven-resources-plugin.version}</version>
+            <configuration>
+              <encoding>UTF-8</encoding>
+            </configuration>
+            <executions>
+                <execution>
+                    <id>copy-resources</id>
+                    <phase>validate</phase>
+                    <goals>
+                        <goal>copy-resources</goal>
+                    </goals>
+                    <configuration>
+                        <outputDirectory>${project.basedir}\target\config</outputDirectory>
+                        <resources>
+                            <resource>
+                                <directory>${project.basedir}\config</directory>
+                                <filtering>true</filtering>
+                            </resource>
+                        </resources>
+                    </configuration>
+                </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <version>${maven-assembly-plugin.version}</version>
+            <configuration>
+              <descriptors>
+                <descriptor>src/main/assembly/production_core.xml</descriptor>
+              </descriptors>
+            </configuration>
+            <executions>
+              <execution>
+                <id>make-assembly</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>single</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>production_graph</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+        <property>
+          <name>env</name>
+          <value>graph</value>
+        </property>
+      </activation>
+      <properties>
+        <tooe.profile>graph</tooe.profile>
+        <actors.deployment>cluster</actors.deployment>
+      </properties>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+            <version>${maven-resources-plugin.version}</version>
+            <configuration>
+              <encoding>UTF-8</encoding>
+            </configuration>
+            <executions>
+                <execution>
+                    <id>copy-resources</id>
+                    <phase>validate</phase>
+                    <goals>
+                        <goal>copy-resources</goal>
+                    </goals>
+                    <configuration>
+                        <outputDirectory>${project.basedir}\target\config</outputDirectory>
+                        <resources>
+                            <resource>
+                                <directory>${project.basedir}\config</directory>
+                                <filtering>true</filtering>
+                            </resource>
+                        </resources>
+                    </configuration>
+                </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <version>${maven-assembly-plugin.version}</version>
+            <configuration>                        
+              <descriptors>
+                <descriptor>src/main/assembly/production_graph.xml</descriptor>
+              </descriptors>
+            </configuration>           
+            <executions>
+              <execution>              
+                <id>make-assembly</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>single</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>ci</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <properties>
+        <maven-mongodb-plugin.hostname>localhost</maven-mongodb-plugin.hostname>
+        <maven-mongodb-plugin.database>test</maven-mongodb-plugin.database>
+      </properties>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>com.googlecode</groupId>
+            <artifactId>maven-mongodb-plugin</artifactId>
+            <version>${maven-mongodb-plugin.version}</version>
+            <executions>
+              <execution>
+                <phase>test-compile</phase>
+                <goals>
+                  <goal>create</goal>
+                </goals>
+              </execution>
+            </executions>
+            <configuration>
+              <dbConnectionSettings>
+                <hostname>${maven-mongodb-plugin.hostname}</hostname>
+                <database>${maven-mongodb-plugin.database}</database>
+              </dbConnectionSettings>
+              <dbCreateScriptsDirectory>
+                <param>scripts/mongodb.import/initial</param>
+              </dbCreateScriptsDirectory>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+ 
+</project>

@@ -1,0 +1,2 @@
+#!/bin/sh
+mongoimport.exe --db test --collection ${1%.*} --type json --file $1 --drop

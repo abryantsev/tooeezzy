@@ -1,0 +1,8 @@
+{ "_id" : "amusement", "cm" : [ { "u" : "bar.png" } ], "n" : { "orig" : "Отдых и развлечения", "ru" : "Отдых и развлечения" } }
+{ "_id" : "courses", "cm" : [ { "u" : "skates.png" } ], "n" : { "orig" : "Курсы", "ru" : "Курсы" } }
+{ "_id" : "flowers", "cm" : [ { "u" : "flower.png" } ], "n" : { "orig" : "Цветы", "ru" : "Цветы" } }
+{ "_id" : "health", "cm" : [ { "u" : "pizza.png" } ], "n" : { "orig" : "Красота и здоровье", "ru" : "Красота и здоровье" } }
+{ "_id" : "restaurants", "cm" : [ { "u" : "eat.png" } ], "n" : { "orig" : "Кафе, бары и рестораны", "ru" : "Кафе, бары и рестораны" } }
+{ "_id" : "service", "cm" : [ { "u" : "perfume.png" } ], "n" : { "orig" : "Сервис", "ru" : "Сервис" } }
+{ "_id" : "shops", "cm" : [ { "u" : "painting.png" } ], "n" : { "orig" : "Магазины", "ru" : "Магазины" } }
+{ "_id" : "children", "cm" : [ { "u" : "yoga.png" } ], "n" : { "orig" : "Товары для детей", "ru" : "Товары для детей" } }

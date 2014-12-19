@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+  xmlns:tx="http://www.springframework.org/schema/tx"
+  xsi:schemaLocation="http://www.springframework.org/schema/data/mongo
+    http://www.springframework.org/schema/data/mongo/spring-mongo-1.2.xsd
+    http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+	<!-- context:spring-configured / -->
+
+	<!-- Activate annotation configured components -->
+	<!-- context:annotation-config / -->
+
+	<!-- context:component-scan base-package="com.tooe.core" / -->
+    <import resource="../spring-data-mongo-converters.xml"/>
+
+	<mongo:db-factory host="${mongodb.connection.host}"
+		port="${mongodb.connection.port}" dbname="${mongodb.connection.db.name}" />
+
+	<bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+		<constructor-arg name="mongoDbFactory" ref="mongoDbFactory" />
+        <constructor-arg name="mongoConverter" ref="mappingConverter"/>
+	</bean>
+
+    <bean id="optionFieldConverterListenerBean" class="com.tooe.core.db.mongo.listeners.EmptyCollectionFieldEntityListener" />
+	<!-- Package w/ automagic repositories -->
+	<mongo:repositories base-package="com.tooe.core.db.mongo.repository" />
+	<mongo:repositories base-package="com.tooe.core.db.mongo.converters" /> <!-- TODO for tests -->
+    <context:component-scan base-package="com.tooe.core.service"/>
+
+    <bean id="mongoProperties" class="com.tooe.core.db.mongo.converters.MongoProperties" scope="singleton">
+        <constructor-arg name="host" value="${mongodb.connection.host}"/>
+        <constructor-arg name="port" value="${mongodb.connection.port}"/>
+        <constructor-arg name="database" value="${mongodb.connection.db.name}"/>
+    </bean>
+
+    <!-- Use this post processor to translate any MongoExceptions thrown in
+        @Repository annotated classes -->
+	<!-- bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor" 
+		/ -->
+
+	<!-- tx:annotation-driven mode="aspectj" / -->
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:META-INF/spring/test/database.properties</value>
+			</list>
+		</property>
+	</bean>
+	
+  <bean id="log4jInitialization" 
+    class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+    <property name="targetClass"
+      value="org.springframework.util.Log4jConfigurer" />
+    <property name="targetMethod" value="initLogging" />
+    <property name="arguments">
+      <list>
+        <value>classpath:META-INF/spring/test/log4j.properties</value>
+      </list>
+    </property>
+  </bean>
+	
+</beans>

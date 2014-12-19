@@ -1,0 +1,1 @@
+akka.sh com.tooe.core.main.StartKernel

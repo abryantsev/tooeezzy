@@ -1,0 +1,2 @@
+﻿{ _id : "de", n : { orig: "Deutschland", ru : "Германия", en : "Germany", de : "Deutschland" }, pc : "+49", ico: "de_flag.png" }
+{ _id : "ru", n : { orig: "Россия", ru : "Россия", en : "Russia", de : "Russland" }, pc : "+7", ico: "ru_flag.png" }

@@ -1,0 +1,4 @@
+{ "_id" : "online", "n" : { "ru" : "онлайн", "en" : "online" }, "cs": 1 }
+{ "_id" : "readyforchat", "n" : { "ru" : "готов поболтать", "en" : "ready for chat" }, "cs": 2 }
+{ "_id" : "busy", "n" : { "ru" : "занят", "en" : "busy" }, "cs": 3 }
+{ "_id" : "offline", "n" : { "ru" : "не в сети", "en" : "offline" }, "cs": 4 }

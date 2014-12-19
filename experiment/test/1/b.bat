@@ -1,0 +1,1 @@
+mvn scala:run -DmainClass=com.tooe.core.main.Main

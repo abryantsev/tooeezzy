@@ -1,0 +1,1 @@
+akka.bat com.tooe.core.main.StartKernel

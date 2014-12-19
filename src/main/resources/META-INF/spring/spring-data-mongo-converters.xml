@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+       xsi:schemaLocation="http://www.springframework.org/schema/data/mongo
+    http://www.springframework.org/schema/data/mongo/spring-mongo-1.2.xsd
+    http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+  <!--<beans profile="tooe-core, tooe-full">-->
+
+    <mongo:mapping-converter id="mappingConverter">
+        <mongo:custom-converters>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.SeqReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.SeqWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.ObjectMapWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.ObjectMapReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.OptionReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.OptionWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.WishPresentStatusReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.WishPresentStatusWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PromotionReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PromotionWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PromotionVisitorReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PromotionVisitorWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.ProductReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.ProductWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.UserReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.UserWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.WishLikeReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.WishLikeWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.WishReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.WishWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.NewsCommentReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.NewsCommentWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.RegionReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.RegionWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationCategoryReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationCategoryWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.CheckinReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.CheckinWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.UsersGroupReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.UsersGroupWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.FriendsCacheWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.FriendsCacheReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.CacheSessionWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.CacheSessionReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.CacheUserOnlineWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.CacheUserOnlineReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PresentWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PresentReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.CountryWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.CountryReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.PhotoLikeReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.PhotoLikeWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.UserEventWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.UserEventReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.LocationPhotoLikeWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.LocationPhotoLikeReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.LocationPhotoCommentWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.LocationPhotoCommentReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.UserPhoneWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.UserPhoneReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.MaritalStatusWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.MaritalStatusReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.LocationSubscriptionWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.LocationSubscriptionReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.LocationNewsWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.LocationNewsReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.StarSubscriptionWriteConvert"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.StarSubscriptionReadConvert"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.NewsWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.NewsReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.CompanyWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+              <bean class="com.tooe.core.db.mongo.converters.CompanyReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.AdminUserWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.AdminUserReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.AdminCredentialsWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.AdminCredentialsReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.StarCategoryWriteConvert"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.StarCategoryReadConvert"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.WriteSnifferWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.WriteSnifferReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.EventTypeWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.EventTypeReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.CacheAdminSessionWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.CacheAdminSessionReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationStatisticsWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationStatisticsReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationNewsLikeWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationNewsLikeReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.FriendshipRequestWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.FriendshipRequestReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.OnlineStatusWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.OnlineStatusReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.AdminUserEventWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.AdminUserEventReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.CurrencyReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.CurrencyWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PreModerationCompanyWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PreModerationCompanyReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PeriodReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PeriodWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.ModerationStatusReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.ModerationStatusWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationsChainReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationsChainWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationPhotoAlbumReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationPhotoAlbumWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.AdminRoleReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.AdminRoleWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LifecycleStatusWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LifecycleStatusReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.EventGroupReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.EventGroupWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.FavoriteStatsReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.FavoriteStatsWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationsChainStatsReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationsChainStatsWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PreModerationLocationWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PreModerationLocationReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.UrlsWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.UrlsReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PhotoAlbumWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PhotoAlbumReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PhotoWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.PhotoReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationPhotoWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.LocationPhotoReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.NewsLikeReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.NewsLikeWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.CalendarEventWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.db.mongo.converters.CalendarEventReadConverter"/>
+            </mongo:converter>
+
+            <!-- migration converters -->
+
+            <mongo:converter>
+                <bean class="com.tooe.core.migration.db.converters.IdMappingReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.migration.db.converters.DictionaryIdMappingReadConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.migration.db.converters.DictionaryIdMappingWriteConverter"/>
+            </mongo:converter>
+            <mongo:converter>
+                <bean class="com.tooe.core.migration.db.converters.IdMappingWriteConverter"/>
+            </mongo:converter>
+
+        </mongo:custom-converters>
+    </mongo:mapping-converter>
+  
+
+  <!--</beans>-->
+
+</beans>

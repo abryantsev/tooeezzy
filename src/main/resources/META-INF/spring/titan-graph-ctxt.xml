@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+	<beans profile="tooe-graph, tooe-full, tooe-migration">
+	
+		<bean id="titanGraphLoadFactory" class="com.tooe.core.db.graph.load.TitanGraphLoadFactory">
+			<property name="backend" value="${titan.storage-backend}" />
+			<property name="hostname" value="${titan.storage-hostname}" />
+			<property name="autotype" value="${titan.autotype}" />
+			<property name="srf" value="${titan.storage-replication-factor}" />
+      <property name="connectionTimeout" value="${titan.connection-timeout}" />
+      <property name="connectionPoolSize" value="${titan.connection-pool-size}" />
+      <property name="readConsistencyLevel" value="${titan.read-consistency-level}" />
+      <property name="writeConsistencyLevel" value="${titan.write-consistency-level}" />
+		</bean>
+
+		<bean id="titanGraph" factory-bean="titanGraphLoadFactory" factory-method="openGraph" />
+
+		<context:component-scan base-package="com.tooe.core.db.graph.data" />
+		<context:annotation-config />
+		
+	</beans>
+
+	<!-- <bean id="inMemoryTitanGraph" factory-bean="titanGraphLoadFactory" 
+		factory-method="openInMemoryGraph" /> -->
+
+	<!-- <bean id="graphRepository" class="com.tooe.core.db.graph.load.GraphRepository"> 
+		<property name="graph" ref="titanGraph" /> </bean> -->
+</beans>

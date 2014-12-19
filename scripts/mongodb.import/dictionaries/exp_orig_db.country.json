@@ -1,0 +1,218 @@
+{ "_id" : "abia", "ia" : true, "n" : { "orig" : "Abkhazia", "ru" : "Абхазия", "en" : "Abkhazia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ad", "ia" : true, "n" : { "orig" : "Andorra", "ru" : "Андорра", "en" : "Andorra" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ae", "ia" : true, "n" : { "orig" : "United Arab Emirates", "ru" : "О.А.Э.", "en" : "United Arab Emirates" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "af", "ia" : true, "n" : { "orig" : "Afghanistan", "ru" : "Афганистан", "en" : "Afghanistan" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ag", "ia" : true, "n" : { "orig" : "Antigua and Barbuda", "ru" : "Антигуа и Барбуда", "en" : "Antigua and Barbuda" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ai", "ia" : true, "n" : { "orig" : "Anguilla", "ru" : "Ангуилья", "en" : "Anguilla" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "al", "ia" : true, "n" : { "orig" : "Albania", "ru" : "Албания", "en" : "Albania" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "am", "ia" : true, "n" : { "orig" : "Armenia", "ru" : "Армения", "en" : "Armenia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "an", "ia" : true, "n" : { "orig" : "Netherlands Antilles", "ru" : "Антильские о-ва", "en" : "Netherlands Antilles" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ao", "ia" : true, "n" : { "orig" : "Angola", "ru" : "Ангола", "en" : "Angola" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ar", "ia" : true, "n" : { "orig" : "Argentina", "ru" : "Аргентина", "en" : "Argentina" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "at", "ia" : true, "n" : { "orig" : "Austria", "ru" : "Австрия", "en" : "Austria" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "au", "ia" : true, "n" : { "orig" : "Australia", "ru" : "Австралия", "en" : "Australia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "aw", "ia" : true, "n" : { "orig" : "Aruba", "ru" : "Арулько", "en" : "Aruba" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "az", "ia" : true, "n" : { "orig" : "Azerbaijan", "ru" : "Азербайджан", "en" : "Azerbaijan" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "ba", "ia" : true, "n" : { "orig" : "Bosnia and Herzegovina", "ru" : "Босния/Герцеговина", "en" : "Bosnia and Herzegovina" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "bb", "ia" : true, "n" : { "orig" : "Barbados", "ru" : "Барбадос", "en" : "Barbados" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "bd", "ia" : true, "n" : { "orig" : "Bangladesh", "ru" : "Бангладеш", "en" : "Bangladesh" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "be", "ia" : true, "n" : { "orig" : "Belgium", "ru" : "Бельгия", "en" : "Belgium" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "bf", "ia" : true, "n" : { "orig" : "Burkina Faso", "ru" : "Буркина Фасо", "en" : "Burkina Faso" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "bg", "ia" : true, "n" : { "orig" : "Bulgaria", "ru" : "Болгария", "en" : "Bulgaria" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "bh", "ia" : true, "n" : { "orig" : "Bahrain", "ru" : "Бахрейн", "en" : "Bahrain" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "bi", "ia" : true, "n" : { "orig" : "Burundi", "ru" : "Бурунди", "en" : "Burundi" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "bj", "ia" : true, "n" : { "orig" : "Benin", "ru" : "Бенин", "en" : "Benin" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "bm", "ia" : true, "n" : { "orig" : "Bermuda", "ru" : "Бермуды", "en" : "Bermuda" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "bn", "ia" : true, "n" : { "orig" : "Brunei", "ru" : "Бруней", "en" : "Brunei" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "bo", "ia" : true, "n" : { "orig" : "Bolivia", "ru" : "Боливия", "en" : "Bolivia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "br", "ia" : true, "n" : { "orig" : "Brazil", "ru" : "Бразилия", "en" : "Brazil" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "bs", "ia" : true, "n" : { "orig" : "Bahamas", "ru" : "Багамские о-ва", "en" : "Bahamas" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "bt", "ia" : true, "n" : { "orig" : "Bhutan", "ru" : "Бутан", "en" : "Bhutan" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "bw", "ia" : true, "n" : { "orig" : "Botswana", "ru" : "Ботсвана", "en" : "Botswana" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "by", "ia" : true, "n" : { "orig" : "Belarus", "ru" : "Беларусь", "en" : "Belarus" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 14, "f" : 0, "sc" : [] } }
+{ "_id" : "bz", "ia" : true, "n" : { "orig" : "Belize", "ru" : "Белиз", "en" : "Belize" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ca", "ia" : true, "n" : { "orig" : "Canada", "ru" : "Канада", "en" : "Canada" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "cg", "ia" : true, "n" : { "orig" : "Congo (Brazzaville)", "ru" : "Конго (Brazzaville)", "en" : "Congo (Brazzaville)" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ch", "ia" : true, "n" : { "orig" : "Switzerland", "ru" : "Швейцария", "en" : "Switzerland" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ci", "ia" : true, "n" : { "orig" : "Cote D'Ivoire", "ru" : "Кот-д'Ивуар", "en" : "Cote D'Ivoire" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ck", "ia" : true, "n" : { "orig" : "Cook Islands", "ru" : "Кука о-ва", "en" : "Cook Islands" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "cl", "ia" : true, "n" : { "orig" : "Chile", "ru" : "Чили", "en" : "Chile" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "cm", "ia" : true, "n" : { "orig" : "Cameroon", "ru" : "Камерун", "en" : "Cameroon" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "cn", "ia" : true, "n" : { "orig" : "China", "ru" : "Китай", "en" : "China" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "co", "ia" : true, "n" : { "orig" : "Colombia", "ru" : "Колумбия", "en" : "Colombia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "cr", "ia" : true, "n" : { "orig" : "Costa Rica", "ru" : "Коста-Рика", "en" : "Costa Rica" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "cu", "ia" : true, "n" : { "orig" : "Cuba", "ru" : "Куба", "en" : "Cuba" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "cv", "ia" : true, "n" : { "orig" : "Cape Verde", "ru" : "Кабо-Верде", "en" : "Cape Verde" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "cy", "ia" : true, "n" : { "orig" : "Cyprus", "ru" : "Кипр", "en" : "Cyprus" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "cz", "ia" : true, "n" : { "orig" : "Czech Republic", "ru" : "Чехия", "en" : "Czech Republic" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "de", "ia" : true, "ico" : "icon-cntr-de.png", "n" : { "orig" : "Deutschland", "ru" : "Германия", "en" : "Germany" }, "pc" : "49", "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 9, "f" : 0, "sc" : [] } }
+{ "_id" : "dj", "ia" : true, "n" : { "orig" : "Djibouti", "ru" : "Джибути", "en" : "Djibouti" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "dk", "ia" : true, "n" : { "orig" : "Denmark", "ru" : "Дания", "en" : "Denmark" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "do", "ia" : true, "n" : { "orig" : "Dominican Republic", "ru" : "Доминиканская республика", "en" : "Dominican Republic" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "dz", "ia" : true, "n" : { "orig" : "Algeria", "ru" : "Алжир", "en" : "Algeria" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "ec", "ia" : true, "n" : { "orig" : "Ecuador", "ru" : "Эквадор", "en" : "Ecuador" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ee", "ia" : true, "n" : { "orig" : "Estonia", "ru" : "Эстония", "en" : "Estonia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "eg", "ia" : true, "n" : { "orig" : "Egypt", "ru" : "Египет", "en" : "Egypt" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "eh", "ia" : true, "n" : { "orig" : "Western Sahara", "ru" : "Западная Сахара", "en" : "Western Sahara" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "er", "ia" : true, "n" : { "orig" : "Eritrea", "ru" : "Эритрея", "en" : "Eritrea" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "es", "ia" : true, "n" : { "orig" : "Spain", "ru" : "Испания", "en" : "Spain" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "et", "ia" : true, "n" : { "orig" : "Ethiopia", "ru" : "Эфиопия", "en" : "Ethiopia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "eund", "ia" : true, "n" : { "orig" : "Europa Island", "ru" : "Европы о-в", "en" : "Europa Island" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "fi", "ia" : true, "n" : { "orig" : "Finland", "ru" : "Финляндия", "en" : "Finland" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "fj", "ia" : true, "n" : { "orig" : "Fiji", "ru" : "Фиджи", "en" : "Fiji" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "fo", "ia" : true, "n" : { "orig" : "Faroe Islands", "ru" : "Фарерские о-ва", "en" : "Faroe Islands" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "fr", "ia" : true, "n" : { "orig" : "France", "ru" : "Франция", "en" : "France" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ga", "ia" : true, "n" : { "orig" : "Gabon", "ru" : "Габон", "en" : "Gabon" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "gb", "ia" : true, "ico" : "icon-cntr-gb.png", "n" : { "orig" : "Great Britain", "ru" : "Великобритания", "en" : "Great Britain" }, "pc" : "44", "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 5, "f" : 0, "sc" : [] } }
+{ "_id" : "gd", "ia" : true, "n" : { "orig" : "Grenada", "ru" : "Гренада", "en" : "Grenada" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ge", "ia" : true, "n" : { "orig" : "Georgia", "ru" : "Грузия", "en" : "Georgia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "gf", "ia" : true, "n" : { "orig" : "French Guiana", "ru" : "Французская Гвинея", "en" : "French Guiana" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "gh", "ia" : true, "n" : { "orig" : "Ghana", "ru" : "Гана", "en" : "Ghana" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "gi", "ia" : true, "n" : { "orig" : "Gibraltar", "ru" : "Гибралтар", "en" : "Gibraltar" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "gl", "ia" : true, "n" : { "orig" : "Greenland", "ru" : "Гренландия", "en" : "Greenland" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "gm", "ia" : true, "n" : { "orig" : "Gambia", "ru" : "Гамбия", "en" : "Gambia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "gn", "ia" : true, "n" : { "orig" : "Guinea", "ru" : "Гвинея", "en" : "Guinea" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "gp", "ia" : true, "n" : { "orig" : "Guadeloupe", "ru" : "Гваделупа", "en" : "Guadeloupe" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "gq", "ia" : true, "n" : { "orig" : "Equatorial Guinea", "ru" : "Экваториальная Гвинея", "en" : "Equatorial Guinea" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "gr", "ia" : true, "n" : { "orig" : "Greece", "ru" : "Греция", "en" : "Greece" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "gt", "ia" : true, "n" : { "orig" : "Guatemala", "ru" : "Гватемала", "en" : "Guatemala" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "guey", "ia" : true, "n" : { "orig" : "Guernsey", "ru" : "Гернси о-в", "en" : "Guernsey" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "gw", "ia" : true, "n" : { "orig" : "Guinea-Bissau", "ru" : "Гвинея-Бисау", "en" : "Guinea-Bissau" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "gy", "ia" : true, "n" : { "orig" : "Guyana", "ru" : "Гайана", "en" : "Guyana" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "hk", "ia" : true, "n" : { "orig" : "Hong Kong", "ru" : "Гонконг", "en" : "Hong Kong" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "hn", "ia" : true, "n" : { "orig" : "Honduras", "ru" : "Гондурас", "en" : "Honduras" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "hr", "ia" : true, "n" : { "orig" : "Croatia", "ru" : "Хорватия", "en" : "Croatia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ht", "ia" : true, "n" : { "orig" : "Haiti", "ru" : "Гаити", "en" : "Haiti" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "hu", "ia" : true, "n" : { "orig" : "Hungary", "ru" : "Венгрия", "en" : "Hungary" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "id", "ia" : true, "n" : { "orig" : "Indonesia", "ru" : "Индонезия", "en" : "Indonesia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ie", "ia" : true, "n" : { "orig" : "Ireland", "ru" : "Ирландия", "en" : "Ireland" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "il", "ia" : true, "n" : { "orig" : "Israel", "ru" : "Израиль", "en" : "Israel" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "im", "ia" : true, "n" : { "orig" : "Isle of Man", "ru" : "Мэн о-в", "en" : "Isle of Man" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "in", "ia" : true, "n" : { "orig" : "India", "ru" : "Индия", "en" : "India" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "iq", "ia" : true, "n" : { "orig" : "Iraq", "ru" : "Ирак", "en" : "Iraq" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ir", "ia" : true, "n" : { "orig" : "Iran", "ru" : "Иран", "en" : "Iran" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "is", "ia" : true, "n" : { "orig" : "Iceland", "ru" : "Исландия", "en" : "Iceland" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "it", "ia" : true, "n" : { "orig" : "Italy", "ru" : "Италия", "en" : "Italy" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 10, "f" : 0, "sc" : [] } }
+{ "_id" : "je", "ia" : true, "n" : { "orig" : "Jersey", "ru" : "Джерси о-в", "en" : "Jersey" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "jm", "ia" : true, "n" : { "orig" : "Jamaica", "ru" : "Ямайка", "en" : "Jamaica" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "jo", "ia" : true, "n" : { "orig" : "Jordan", "ru" : "Иордания", "en" : "Jordan" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "jp", "ia" : true, "n" : { "orig" : "Japan", "ru" : "Япония", "en" : "Japan" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "ke", "ia" : true, "n" : { "orig" : "Kenya", "ru" : "Кения", "en" : "Kenya" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "kg", "ia" : true, "n" : { "orig" : "Kyrgyzstan", "ru" : "Кыргызстан", "en" : "Kyrgyzstan" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "kh", "ia" : true, "n" : { "orig" : "Cambodia", "ru" : "Камбоджа", "en" : "Cambodia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ki", "ia" : true, "n" : { "orig" : "Kiribati", "ru" : "Кирибати", "en" : "Kiribati" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "km", "ia" : true, "n" : { "orig" : "Comoros", "ru" : "Коморские о-ва", "en" : "Comoros" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "kn", "ia" : true, "n" : { "orig" : "Saint Kitts and Nevis", "ru" : "Сент Китс и Невис", "en" : "Saint Kitts and Nevis" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "kp", "ia" : true, "n" : { "orig" : "North Korea", "ru" : "Северная Корея", "en" : "North Korea" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "kr", "ia" : true, "n" : { "orig" : "South Korea", "ru" : "Южная Корея", "en" : "South Korea" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "kw", "ia" : true, "n" : { "orig" : "Kuwait", "ru" : "Кувейт", "en" : "Kuwait" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "kz", "ia" : true, "n" : { "orig" : "Kazakhstan", "ru" : "Казахстан", "en" : "Kazakhstan" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 3, "f" : 0, "sc" : [] } }
+{ "_id" : "la", "ia" : true, "n" : { "orig" : "Laos", "ru" : "Лаос", "en" : "Laos" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "lb", "ia" : true, "n" : { "orig" : "Lebanon", "ru" : "Ливан", "en" : "Lebanon" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "lc", "ia" : true, "n" : { "orig" : "Saint Lucia", "ru" : "Святая Люсия", "en" : "Saint Lucia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "li", "ia" : true, "n" : { "orig" : "Liechtenstein", "ru" : "Лихтенштейн", "en" : "Liechtenstein" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "lk", "ia" : true, "n" : { "orig" : "Sri Lanka", "ru" : "Шри-Ланка", "en" : "Sri Lanka" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "lr", "ia" : true, "n" : { "orig" : "Liberia", "ru" : "Либерия", "en" : "Liberia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ls", "ia" : true, "n" : { "orig" : "Lesotho", "ru" : "Лесото", "en" : "Lesotho" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "lt", "ia" : true, "n" : { "orig" : "Lithuania", "ru" : "Литва", "en" : "Lithuania" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "lu", "ia" : true, "n" : { "orig" : "Luxembourg", "ru" : "Люксембург", "en" : "Luxembourg" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "lv", "ia" : true, "n" : { "orig" : "Latvia", "ru" : "Латвия", "en" : "Latvia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "ly", "ia" : true, "n" : { "orig" : "Libya", "ru" : "Ливия", "en" : "Libya" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ma", "ia" : true, "n" : { "orig" : "Morocco", "ru" : "Марокко", "en" : "Morocco" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "mc", "ia" : true, "n" : { "orig" : "Monaco", "ru" : "Монако", "en" : "Monaco" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "md", "ia" : true, "n" : { "orig" : "Moldova", "ru" : "Молдавия", "en" : "Moldova" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "me", "ia" : true, "n" : { "orig" : "Montenegro", "ru" : "Черногория", "en" : "Montenegro" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "mg", "ia" : true, "n" : { "orig" : "Madagascar", "ru" : "Мадагаскар", "en" : "Madagascar" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "mk", "ia" : true, "n" : { "orig" : "Macedonia", "ru" : "Македония", "en" : "Macedonia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ml", "ia" : true, "n" : { "orig" : "Mali", "ru" : "Мали", "en" : "Mali" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "mm", "ia" : true, "n" : { "orig" : "Myanmar (Burma)", "ru" : "Мьянма (Бирма)", "en" : "Myanmar (Burma)" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "mn", "ia" : true, "n" : { "orig" : "Mongolia", "ru" : "Монголия", "en" : "Mongolia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "mo", "ia" : true, "n" : { "orig" : "Macau", "ru" : "Макао", "en" : "Macau" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "mq", "ia" : true, "n" : { "orig" : "Martinique", "ru" : "Мартиника о-в", "en" : "Martinique" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "mr", "ia" : true, "n" : { "orig" : "Mauritania", "ru" : "Мавритания", "en" : "Mauritania" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "mt", "ia" : true, "n" : { "orig" : "Malta", "ru" : "Мальта", "en" : "Malta" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "mu", "ia" : true, "n" : { "orig" : "Mauritius", "ru" : "Маврикий", "en" : "Mauritius" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "mv", "ia" : true, "n" : { "orig" : "Maldives", "ru" : "Мальдивские о-ва", "en" : "Maldives" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "mw", "ia" : true, "n" : { "orig" : "Malawi", "ru" : "Малави", "en" : "Malawi" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "mx", "ia" : true, "n" : { "orig" : "Mexico", "ru" : "Мексика", "en" : "Mexico" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "my", "ia" : true, "n" : { "orig" : "Malaysia", "ru" : "Малайзия", "en" : "Malaysia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "mz", "ia" : true, "n" : { "orig" : "Mozambique", "ru" : "Мозамбик", "en" : "Mozambique" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "na", "ia" : true, "n" : { "orig" : "Namibia", "ru" : "Намибия", "en" : "Namibia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "nc", "ia" : true, "n" : { "orig" : "New Caledonia", "ru" : "Новая Каледония о-в", "en" : "New Caledonia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ne", "ia" : true, "n" : { "orig" : "Niger", "ru" : "Нигер", "en" : "Niger" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "nf", "ia" : true, "n" : { "orig" : "Norfolk Island", "ru" : "Норфолк о-в", "en" : "Norfolk Island" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ng", "ia" : true, "n" : { "orig" : "Nigeria", "ru" : "Нигерия", "en" : "Nigeria" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ni", "ia" : true, "n" : { "orig" : "Nicaragua", "ru" : "Никарагуа", "en" : "Nicaragua" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "nl", "ia" : true, "n" : { "orig" : "Netherlands", "ru" : "Нидерланды (Голландия)", "en" : "Netherlands" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "no", "ia" : true, "n" : { "orig" : "Norway", "ru" : "Норвегия", "en" : "Norway" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "np", "ia" : true, "n" : { "orig" : "Nepal", "ru" : "Непал", "en" : "Nepal" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "nr", "ia" : true, "n" : { "orig" : "Nauru", "ru" : "Науру", "en" : "Nauru" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "nz", "ia" : true, "n" : { "orig" : "New Zealand", "ru" : "Новая Зеландия", "en" : "New Zealand" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "om", "ia" : true, "n" : { "orig" : "Oman", "ru" : "Оман", "en" : "Oman" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "pa", "ia" : true, "n" : { "orig" : "Panama", "ru" : "Панама", "en" : "Panama" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "pe", "ia" : true, "n" : { "orig" : "Peru", "ru" : "Перу", "en" : "Peru" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "pf", "ia" : true, "n" : { "orig" : "French Polynesia", "ru" : "Французская Полинезия", "en" : "French Polynesia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "pg", "ia" : true, "n" : { "orig" : "Papua New Guinea", "ru" : "Папуа Новая Гвинея", "en" : "Papua New Guinea" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ph", "ia" : true, "n" : { "orig" : "Philippines", "ru" : "Филиппины", "en" : "Philippines" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "pk", "ia" : true, "n" : { "orig" : "Pakistan", "ru" : "Пакистан", "en" : "Pakistan" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "pl", "ia" : true, "n" : { "orig" : "Poland", "ru" : "Польша", "en" : "Poland" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "pm", "ia" : true, "n" : { "orig" : "Saint Pierre and Miquelon", "ru" : "Сен-Пьер и Микелон", "en" : "Saint Pierre and Miquelon" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "pn", "ia" : true, "n" : { "orig" : "Pitcairn Islands", "ru" : "Питкэрн о-в", "en" : "Pitcairn Islands" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "pr", "ia" : true, "n" : { "orig" : "Puerto Rico", "ru" : "Пуэрто Рико", "en" : "Puerto Rico" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "pt", "ia" : true, "n" : { "orig" : "Portugal", "ru" : "Португалия", "en" : "Portugal" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "py", "ia" : true, "n" : { "orig" : "Paraguay", "ru" : "Парагвай", "en" : "Paraguay" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "qa", "ia" : true, "n" : { "orig" : "Qatar", "ru" : "Катар", "en" : "Qatar" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "re", "ia" : true, "n" : { "orig" : "Reunion", "ru" : "Реюньон", "en" : "Reunion" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ro", "ia" : true, "n" : { "orig" : "Romania", "ru" : "Румыния", "en" : "Romania" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ru", "ico" : "icon-cntr-ru.png", "n" : { "orig" : "Россия", "ru" : "Россия", "en" : "Russia" }, "pc" : "7", "st" : { "l" : 0, "pr" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [], "lc": [] } }
+{ "_id" : "rw", "ia" : true, "n" : { "orig" : "Rwanda", "ru" : "Руанда", "en" : "Rwanda" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "sa", "ia" : true, "n" : { "orig" : "Saudi Arabia", "ru" : "Саудовская Аравия", "en" : "Saudi Arabia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "sb", "ia" : true, "n" : { "orig" : "Serbia", "ru" : "Сербия", "en" : "Serbia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "sc", "ia" : true, "n" : { "orig" : "Seychelles", "ru" : "Сейшеллы", "en" : "Seychelles" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "sd", "ia" : true, "n" : { "orig" : "Sudan", "ru" : "Судан", "en" : "Sudan" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "se", "ia" : true, "n" : { "orig" : "Sweden", "ru" : "Швеция", "en" : "Sweden" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "sg", "ia" : true, "n" : { "orig" : "Singapore", "ru" : "Сингапур", "en" : "Singapore" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "sh", "ia" : true, "n" : { "orig" : "Saint Helena", "ru" : "Святой Елены о-в", "en" : "Saint Helena" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "si", "ia" : true, "n" : { "orig" : "Slovenia", "ru" : "Словения", "en" : "Slovenia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "sk", "ia" : true, "n" : { "orig" : "Slovakia", "ru" : "Словакия", "en" : "Slovakia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "sl", "ia" : true, "n" : { "orig" : "Sierra Leone", "ru" : "Сьерра-Леоне", "en" : "Sierra Leone" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "sm", "ia" : true, "n" : { "orig" : "San Marino", "ru" : "Сан-Марино", "en" : "San Marino" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "sn", "ia" : true, "n" : { "orig" : "Senegal", "ru" : "Сенегал", "en" : "Senegal" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "so", "ia" : true, "n" : { "orig" : "Somalia", "ru" : "Сомали", "en" : "Somalia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "soia", "ia" : true, "n" : { "orig" : "South Ossetia", "ru" : "Южная Осетия", "en" : "South Ossetia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "sr", "ia" : true, "n" : { "orig" : "Suriname", "ru" : "Суринам", "en" : "Suriname" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "st", "ia" : true, "n" : { "orig" : "Sao Tome and Principe", "ru" : "Сан-Томе и Принсипи", "en" : "Sao Tome and Principe" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "sv", "ia" : true, "n" : { "orig" : "El Salvador", "ru" : "Сальвадор", "en" : "El Salvador" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "sy", "ia" : true, "n" : { "orig" : "Syria", "ru" : "Сирия", "en" : "Syria" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "sz", "ia" : true, "n" : { "orig" : "Swaziland", "ru" : "Свазиленд", "en" : "Swaziland" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "tc", "ia" : true, "n" : { "orig" : "Turks and Caicos Islands", "ru" : "Туркс и Кейкос", "en" : "Turks and Caicos Islands" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "td", "ia" : true, "n" : { "orig" : "Chad", "ru" : "Чад", "en" : "Chad" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "tg", "ia" : true, "n" : { "orig" : "Togo", "ru" : "Того", "en" : "Togo" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "th", "ia" : true, "n" : { "orig" : "Thailand", "ru" : "Таиланд", "en" : "Thailand" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "tj", "ia" : true, "n" : { "orig" : "Tajikistan", "ru" : "Таджикистан", "en" : "Tajikistan" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "tk", "ia" : true, "n" : { "orig" : "Tokelau", "ru" : "Токелау о-ва", "en" : "Tokelau" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "tl", "ia" : true, "n" : { "orig" : "East Timor", "ru" : "Восточный Тимор", "en" : "East Timor" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "tm", "ia" : true, "n" : { "orig" : "Turkmenistan", "ru" : "Туркменистан", "en" : "Turkmenistan" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "tn", "ia" : true, "n" : { "orig" : "Tunisia", "ru" : "Тунис", "en" : "Tunisia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "to", "ia" : true, "n" : { "orig" : "Tonga", "ru" : "Тонга", "en" : "Tonga" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "tr", "ia" : true, "n" : { "orig" : "Turkey", "ru" : "Турция", "en" : "Turkey" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "tt", "ia" : true, "n" : { "orig" : "Trinidad and Tobago", "ru" : "Тринидад и Тобаго", "en" : "Trinidad and Tobago" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "tv", "ia" : true, "n" : { "orig" : "Tuvalu", "ru" : "Тувалу", "en" : "Tuvalu" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "tw", "ia" : true, "n" : { "orig" : "Taiwan", "ru" : "Тайвань", "en" : "Taiwan" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "tz", "ia" : true, "n" : { "orig" : "Tanzania", "ru" : "Танзания", "en" : "Tanzania" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ua", "ia" : true, "ico" : "icon-cntr-ua.png", "n" : { "orig" : "Україна", "ru" : "Украина", "en" : "Ukraine" }, "pc" : "380", "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 36, "f" : 0, "sc" : [] } }
+{ "_id" : "ug", "ia" : true, "n" : { "orig" : "Uganda", "ru" : "Уганда", "en" : "Uganda" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "us", "ia" : true, "ico" : "icon-cntr-us.png", "n" : { "orig" : "USA", "ru" : "США", "en" : "USA" }, "pc" : "1", "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 5, "f" : 0, "sc" : [] } }
+{ "_id" : "uy", "ia" : true, "n" : { "orig" : "Uruguay", "ru" : "Уругвай", "en" : "Uruguay" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "uz", "ia" : true, "n" : { "orig" : "Uzbekistan", "ru" : "Узбекистан", "en" : "Uzbekistan" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "vc", "ia" : true, "n" : { "orig" : "Saint Vincent and the Grenadines", "ru" : "Сент-Винсент и Гренадины", "en" : "Saint Vincent and the Grenadines" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ve", "ia" : true, "n" : { "orig" : "Venezuela", "ru" : "Венесуэла", "en" : "Venezuela" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "vg", "ia" : true, "n" : { "orig" : "British Virgin Islands", "ru" : "Британские Виргинские о-ва", "en" : "British Virgin Islands" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 1, "f" : 0, "sc" : [] } }
+{ "_id" : "vn", "ia" : true, "n" : { "orig" : "Vietnam", "ru" : "Вьетнам", "en" : "Vietnam" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "vu", "ia" : true, "n" : { "orig" : "Vanuatu", "ru" : "Вануату", "en" : "Vanuatu" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "wf", "ia" : true, "n" : { "orig" : "Wallis and Futuna", "ru" : "Валлис и Футуна о-ва", "en" : "Wallis and Futuna" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ws", "ia" : true, "n" : { "orig" : "Samoa", "ru" : "Самоа", "en" : "Samoa" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "ye", "ia" : true, "n" : { "orig" : "Yemen", "ru" : "Йемен", "en" : "Yemen" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "za", "ia" : true, "n" : { "orig" : "South Africa", "ru" : "ЮАР", "en" : "South Africa" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "zm", "ia" : true, "n" : { "orig" : "Zambia", "ru" : "Замбия", "en" : "Zambia" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }
+{ "_id" : "zw", "ia" : true, "n" : { "orig" : "Zimbabwe", "ru" : "Зимбабве", "en" : "Zimbabwe" }, "st" : { "l" : 0, "p" : 0, "s" : 0, "u" : 0, "f" : 0, "sc" : [] } }

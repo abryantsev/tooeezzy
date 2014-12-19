@@ -1,0 +1,4 @@
+{ "_id" : "bestfriend", "n" : { "ru" : "Близкие друзья", "en" : "Best friends" } }
+{ "_id" : "colleague", "n" : { "ru" : "Коллеги", "en" : "Сolleagues" } }
+{ "_id" : "family", "n" : { "ru" : "Семья", "en" : "Family" } }
+{ "_id" : "myfriend", "n" : { "ru" : "Друзья", "en" : "Friends" } }

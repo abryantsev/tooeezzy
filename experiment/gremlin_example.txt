@@ -1,0 +1,22 @@
+gremlin> conf = new BaseConfiguration();
+==>org.apache.commons.configuration.BaseConfiguration@2fbb21e
+gremlin> conf.setProperty("storage.backend","cassandra");
+==>null
+gremlin> conf.setProperty("storage.hostname","127.0.0.1");
+==>null
+gremlin> g = TitanFactory.open(conf);
+13/01/09 16:25:46 INFO impl.ConnectionPoolMBeanManager: Registering mbean: com.netflix.MonitoredReso
+urces:type=ASTYANAX,name=TitanConnectionPool,ServiceType=connectionpool
+==>titangraph[cassandra:127.0.0.1]
+gremlin> g.createKeyIndex('name', Vertex.class)
+==>null
+gremlin> g.createKeyIndex('type', Vertex.class)
+==>null
+gremlin> g.createKeyIndex('time', Edge.class)
+Only vertex indexing is supported
+Display stack trace? [yN] NN
+gremlin> g.loadGraphML('../data/graph-of-the-gods.xml')
+==>null
+gremlin> g.V('name','saturn').in('father').map
+==>{name=jupiter, type=god}
+gremlin>g.saveGraphML('../data/save.xml')
